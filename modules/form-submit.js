@@ -8,4 +8,5 @@ export default function add() {
   newBook.displayBooks();
   document.querySelector('#book-title').value = '';
   document.querySelector('#book-author').value = '';
+  event.preventDefault();
 }

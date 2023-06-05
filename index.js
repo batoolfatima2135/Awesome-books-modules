@@ -7,7 +7,7 @@ date();
 
 const newBook = new BookList();
 
-document.getElementById('submit-button').addEventListener('click', () => add());
+document.getElementById('formID').addEventListener('submit', () => add());
 
 newBook.displayBooks();
 navbar();
