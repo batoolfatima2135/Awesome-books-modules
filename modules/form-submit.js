@@ -1,6 +1,6 @@
 import BookList from './book-class.js';
 
-export default function add() {
+export default function add(event) {
   const newBook = new BookList();
   const bookTitle = document.querySelector('#book-title').value;
   const bookAuthor = document.querySelector('#book-author').value;
